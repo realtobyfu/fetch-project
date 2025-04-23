@@ -8,11 +8,10 @@
 import SwiftUI
 
 @main
-struct Fetch_ProjectApp: App {
-
+struct RecipesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RecipesListView()
         }
     }
 }

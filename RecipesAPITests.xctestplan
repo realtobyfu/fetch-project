@@ -12,7 +12,13 @@
     "testTimeoutsEnabled" : true
   },
   "testTargets" : [
-
+    {
+      "target" : {
+        "containerPath" : "container:Fetch Project.xcodeproj",
+        "identifier" : "3E41D1D42DB826CE00AF482B",
+        "name" : "RecipesAPITests"
+      }
+    }
   ],
   "version" : 1
 }
