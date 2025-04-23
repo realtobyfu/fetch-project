@@ -5,6 +5,7 @@
 //  Created by Tobias Fu on 4/23/25.
 //
 
+// RecipesViewModel.swift
 import Foundation
 import SwiftUI
 
@@ -15,16 +16,16 @@ class RecipesViewModel: ObservableObject {
         case loading
         case loaded([Recipe])
         case error(Error)
-        
-        var recipes: [Recipe] {
-            if case .loaded(let recipes) = self {
-                return recipes
-            }
-            return []
-        }
     }
     
     @Published private(set) var state: LoadState = .idle
+    
+    var recipes: [Recipe] {
+        if case .loaded(let recipes) = state {
+            return recipes
+        }
+        return []
+    }
     
     func loadRecipes() async {
         state = .loading
@@ -40,4 +41,11 @@ class RecipesViewModel: ObservableObject {
     func reload() async {
         await loadRecipes()
     }
+    
+//    var isIdleOrInitialLoading: Bool {
+//        if case .idle = state { return true }
+//        if case .loading = state && recipes.isEmpty { return true }
+//        return false
+//    }
+//
 }

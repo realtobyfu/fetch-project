@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		3E41D1D02DB826B600AF482B /* RecipesAPITests.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 3E41D1CF2DB826B600AF482B /* RecipesAPITests.xctestplan */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		3E41D1D92DB826CE00AF482B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -22,7 +18,6 @@
 
 /* Begin PBXFileReference section */
 		3E2FE9C42DAD6946000F5A21 /* Fetch Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fetch Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E41D1CF2DB826B600AF482B /* RecipesAPITests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = RecipesAPITests.xctestplan; sourceTree = "<group>"; };
 		3E41D1D52DB826CE00AF482B /* RecipesAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipesAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -60,7 +55,6 @@
 		3E2FE9BB2DAD6946000F5A21 = {
 			isa = PBXGroup;
 			children = (
-				3E41D1CF2DB826B600AF482B /* RecipesAPITests.xctestplan */,
 				3E2FE9C62DAD6946000F5A21 /* Fetch Project */,
 				3E41D1D62DB826CE00AF482B /* RecipesAPITests */,
 				3E2FE9C52DAD6946000F5A21 /* Products */,
@@ -168,7 +162,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E41D1D02DB826B600AF482B /* RecipesAPITests.xctestplan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +327,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Fetch Project/Preview Content\"";
 				DEVELOPMENT_TEAM = KUXA576FBM;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -361,7 +353,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Fetch Project/Preview Content\"";
 				DEVELOPMENT_TEAM = KUXA576FBM;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
